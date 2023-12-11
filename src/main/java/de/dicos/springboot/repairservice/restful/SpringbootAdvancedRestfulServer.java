@@ -1,0 +1,48 @@
+/**
+ * (c) DICOS GmbH, 2018
+ *
+ * $Id$
+ */
+package de.dicos.springboot.repairservice.restful;
+
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.builder.SpringApplicationBuilder;
+
+import lombok.NoArgsConstructor;
+
+/**
+ *
+ * @author sth
+ */
+@NoArgsConstructor
+@SpringBootApplication(scanBasePackages = { "de.dicos.springboot.repairservice" })
+public class SpringbootAdvancedRestfulServer
+{
+	// /////////////////////////////////////////////////////////
+	// Class Members
+	// /////////////////////////////////////////////////////////
+
+
+	// /////////////////////////////////////////////////////////
+	// Constructors
+	// /////////////////////////////////////////////////////////
+
+
+	// /////////////////////////////////////////////////////////
+	// Methods
+	// /////////////////////////////////////////////////////////
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args)
+	{
+		new SpringApplicationBuilder(SpringbootAdvancedRestfulServer.class)
+			.run(args);
+	}
+
+	// /////////////////////////////////////////////////////////
+	// Inner Classes
+	// /////////////////////////////////////////////////////////
+
+
+}
